@@ -32,8 +32,8 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "ChatGPT mobile",
-    description: "ChatGPT mobile app for both android and iOS",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    description: "a Flutter app that lets you chat with OpenAI's language model. With its sleek and user-friendly interface, this app takes your chat experience to the next level.",
+    url: "https://github.com/Chamidilshan/ChatGPT-App",
   },
   {
     title: "Garbage Collector In Java and Rust",
@@ -43,8 +43,8 @@ const projectList = [
   },
   {
     title: "Dawn Resort Web App",
-    description: "A web app built with react and hosted in firebase for dawn resort.",
-    url: "https://dawnresorts.lk/",
+    description: "A captivating and interactive web application that showcases the beauty of our luxurious resort. This project is coded using React, making it highly responsive and user-friendly and hosted in firebase",
+    url: "https://github.com/Chamidilshan/dawn-resourt-app",
   },
 ];
 
@@ -56,7 +56,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideIn"}}
             alt={imageAltText}
           />
         </div>
