@@ -27198,7 +27198,7 @@ const imageAltText = "purple and blue abstract background";
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
- */ const detailOrQuote = "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+ */ const detailOrQuote = "My journey involves delving into the fascinating realms of mobile app development, while I'm also immersing myself in the exciting world of data science and machine learning.  Innovation is my driving force, and I'm thrilled to be part of the ever-evolving tech landscape.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -28715,7 +28715,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/back.jpg":"dsI1E"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/back.jpg":"dsI1E","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"dsI1E":[function(require,module,exports) {
@@ -28760,8 +28760,8 @@ const imageAltText = "desktop with books and laptop";
  */ const projectList = [
     {
         title: "ChatGPT mobile",
-        description: "ChatGPT mobile app for both android and iOS",
-        url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
+        description: "a Flutter app that lets you chat with OpenAI's language model. With its sleek and user-friendly interface, this app takes your chat experience to the next level.",
+        url: "https://github.com/Chamidilshan/ChatGPT-App"
     },
     {
         title: "Garbage Collector In Java and Rust",
@@ -28770,8 +28770,8 @@ const imageAltText = "desktop with books and laptop";
     },
     {
         title: "Dawn Resort Web App",
-        description: "A web app built with react and hosted in firebase for dawn resort.",
-        url: "https://dawnresorts.lk/"
+        description: "A captivating and interactive web application that showcases the beauty of our luxurious resort. This project is coded using React, making it highly responsive and user-friendly and hosted in firebase",
+        url: "https://github.com/Chamidilshan/dawn-resourt-app"
     }, 
 ];
 const Portfolio = ()=>{
@@ -28806,7 +28806,8 @@ const Portfolio = ()=>{
                             style: {
                                 height: "90%",
                                 width: "100%",
-                                objectFit: "cover"
+                                objectFit: "cover",
+                                animation: "1s ease-out 0s 1 slideIn"
                             },
                             alt: imageAltText
                         }, void 0, false, {
